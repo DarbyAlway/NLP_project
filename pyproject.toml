@@ -1,0 +1,26 @@
+[project]
+name = "nlp-project"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "WinNKyawWilly",email = "winnaingkyaw_win@cmu.ac.th"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4"
+dependencies = [
+    "torch (>=2.6.0,<3.0.0)",
+    "numpy (>=2.2.3,<3.0.0)",
+    "pytorch-crf (>=0.7.2,<0.8.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+
+[tool.poetry]
+package-mode = true
+
