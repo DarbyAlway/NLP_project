@@ -10,7 +10,9 @@ requires-python = ">=3.10,<4"
 dependencies = [
     "torch (>=2.6.0,<3.0.0)",
     "numpy (>=2.2.3,<3.0.0)",
-    "pytorch-crf (>=0.7.2,<0.8.0)"
+    "pytorch-crf (>=0.7.2,<0.8.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "datasets (>=3.3.2,<4.0.0)"
 ]
 
 
@@ -22,5 +24,13 @@ build-backend = "poetry.core.masonry.api"
 jupyter = "^1.1.1"
 
 [tool.poetry]
-package-mode = true
+name = "nlp-project"
+version = "0.1.0"
+description = "Potical NER and Sentiment Analysis"
+authors = [
+    "Win Naing Kyaw"
+]
+readme = "README.md"
+packages = [{ include = "nlp-project", from = "src" }]
+
 
