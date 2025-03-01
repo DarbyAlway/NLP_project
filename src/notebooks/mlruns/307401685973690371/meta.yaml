@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/307401685973690371
+creation_time: 1740820146011
+experiment_id: '307401685973690371'
+last_update_time: 1740820146011
+lifecycle_stage: active
+name: Sota NER on conll2003 Replication
